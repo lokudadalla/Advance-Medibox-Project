@@ -35,11 +35,18 @@
     <ul>
         <li><strong>ESP32 Microcontroller:</strong> Central to the project, the ESP32 handles time synchronization, environmental monitoring, and controlling the servo motor for the shaded window.</li>
         <li><strong>Wokwi Simulation:</strong> Used for initial development and testing of the Medibox functionalities.</li>
-          <img src="your-image-url-here" alt="Medibox Project Image" width="600">
+          <img src="https://private-user-images.githubusercontent.com/133969661/332588886-bf9e14a8-7771-482f-94f5-ec74eefbfb37.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYzMjc5MDIsIm5iZiI6MTcxNjMyNzYwMiwicGF0aCI6Ii8xMzM5Njk2NjEvMzMyNTg4ODg2LWJmOWUxNGE4LTc3NzEtNDgyZi05NGY1LWVjNzRlZWZiZmIzNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyMVQyMTQwMDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wZTU4OGI3NjE2YTg3MjFkNGE2MGVjODczZjI3NzY2YzU0MjJiNTg0YWYxZjIxMjk5ZDI4ZGYyMWUzN2FlNzBmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.H0RQ8RxPwV_-QYnvSCWlnFNrkpstFfPZJR4vio_qgqg" alt="Medibox Project Image" width="600">
 
-        <li><strong>Node-RED Dashboard:</strong> Provides a user-friendly interface for monitoring and adjusting Medibox settings, enhancing the interaction and customization capabilities.</li>
-        <li><strong>MQTT Protocol:</strong> Facilitates communication between the ESP32 and the Node-RED dashboard, ensuring real-time updates and control.</li>
-    </ul>
+<li><strong>Node-RED Dashboard:</strong> Provides a user-friendly interface for monitoring and adjusting Medibox settings, enhancing the interaction and customization capabilities.
+
+</li>
+    <img src="https://private-user-images.githubusercontent.com/133969661/332588969-472a32a6-e1e0-4d84-8251-44be7d358487.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYzMjc5MDIsIm5iZiI6MTcxNjMyNzYwMiwicGF0aCI6Ii8xMzM5Njk2NjEvMzMyNTg4OTY5LTQ3MmEzMmE2LWUxZTAtNGQ4NC04MjUxLTQ0YmU3ZDM1ODQ4Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyMVQyMTQwMDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jM2I1NDc1YjAxOTk3YWEzM2VhOWMwNDVmOGQ2ODZhMmI3MTkyMTA1MzFkN2I2ZWY1ODJiZTBjNTU0YzJjMDhkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.2_f7Y2tsHkVFF2qF-YUfFOszxULcepY_prIDGMB1u8I" alt="Medibox Project Image" width="600">
+        <img src="https://private-user-images.githubusercontent.com/133969661/332588848-fca155fb-fe82-4259-9e52-081d6b64f595.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTYzMjc5MDIsIm5iZiI6MTcxNjMyNzYwMiwicGF0aCI6Ii8xMzM5Njk2NjEvMzMyNTg4ODQ4LWZjYTE1NWZiLWZlODItNDI1OS05ZTUyLTA4MWQ2YjY0ZjU5NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUyMVQyMTQwMDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01MmZiMDRkNjNkNWM5N2JiNjdkNWM4YTFkZGY3NWMwMDQ2NjFjZWYwNzc3YzM3NDhmMzE0ZjY5ZWZjNjRlYTZlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.PZa6V75G00fLzz5tIZ9P4h8KrBgrrIYUwQoL5ihXLxg" alt="Medibox Project Image" width="600">
+
+
+<li><strong>MQTT Protocol:</strong> Facilitates communication between the ESP32 and the Node-RED dashboard, ensuring real-time updates and control.</li>
+        
+</ul>
 
    <h2>Conclusion</h2>
     <p>The Medibox project demonstrates a comprehensive approach to developing an intelligent medication management system. By integrating time management, environmental monitoring, and light sensitivity features, the Medibox ensures that users can maintain their medication schedule and store their medications under optimal conditions. This project showcases the application of microcontroller programming and IoT technologies in creating practical solutions for healthcare management.</p>
